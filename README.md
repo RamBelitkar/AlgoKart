@@ -37,8 +37,13 @@ The project consists of **three main classes**:
 - Sends login credentials.
 - Allows the user to send and receive messages in real time.
 - Can execute commands like:
-  - `WHO` → Lists active users.
-  - `exit` → Disconnects from the server.
+  - `WHO` : Lists active users.
+  - `exit` : Disconnects from the server.
+  - `DM` : Can Send Private Message by aggreate the `@` in front of the username
+          in this format 
+          ```bash
+          @username <message>
+          ```
 
 > By default, the client connects to `localhost:4000`,  
 > but this can be changed to a public IP to enable remote access.
